@@ -36,7 +36,7 @@ const Footer = () => {
               </div>
             </div>
 
-            <div className='col-start3'>
+            <div className='col-start3 text-base'>
               We are not related to Spotify AB or any of it's partners in any way.
               Personal data will only be processed by us to the extent necessary 
               and for the purpose of providing a functional and user-friendly website, 
