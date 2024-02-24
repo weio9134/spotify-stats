@@ -65,7 +65,7 @@ const Navbar = () => {
   return (
     <nav ref={navbarRef} className='bg-[#1DB954] pt-3 pb-2 fixed z-10 bg-opacity-95 active w-full'>
       <div className='left-10 right-10 flex flex-wrap items-center justify-between mx-auto px-4 py-2 lg:pl-20 lg:pr-20'>
-        <Link href="/" className='text-xl md:text-3xl font-semibold'> Home </Link>
+        <Link href="/" className='text-2xl md:text-3xl font-semibold'> Home </Link>
       
         <div className='mobile-menu block md:hidden dropdown dropdown-bottom dropdown-end'>
           <div tabIndex={0} className="m-1" ref={dropdown}>
