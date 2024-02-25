@@ -38,7 +38,7 @@ const About = () => {
                 alt="vector stats"
                 className='sm:m-auto'
               />
-              <p className='w-2/3 p-10 sm:m-auto'>
+              <p className='w-full p-10 sm:m-auto'>
                 Explore your top tracks, artists, and genres over different time periods.
                 Dive into detailed statistics and compare your musical tastes with others.
                 Discover new music recommendations tailored just for you.

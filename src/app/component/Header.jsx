@@ -19,18 +19,19 @@ const Header = () => {
     autoplay: true,
     fade: true,
     pauseOnHover: false,
-
   }
 
   return (
     <section className='container pl-10 pr-10 pt-10'>
-      <div>
-        <Slider {...settings} className='brightness-50'>
-          <Image src={Artist} />
-          <Image src={Wrap} />
-          <Image src={Web} />
-        </Slider>
-        <div className='text-base md:text-3xl relative text-center m-auto top-[-100px] md:top-[-200px]'>
+      <div> 
+        <div className='hidden sm:block'>
+          <Slider {...settings} className='brightness-50'>
+            <Image src={Artist} />
+            <Image src={Wrap} />
+            <Image src={Web} />
+          </Slider>
+        </div>
+        <div className='text-base md:text-3xl relative text-center m-auto sm:top-[-100px] md:top-[-200px]'>
           <p> 
             Welcome to our Spotify Stats website! 
           </p>
