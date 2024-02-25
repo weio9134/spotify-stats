@@ -45,7 +45,7 @@ const Navbar = () => {
   const Menu = () => (
     <>
       <li>
-        <Link href={"#about"} className={LinkStyle}>
+        <Link href={"/#about"} className={LinkStyle}>
           About
         </Link>
       </li>
