@@ -26,9 +26,9 @@ const Header = () => {
       <div> 
         <div className='hidden sm:block'>
           <Slider {...settings} className='brightness-50'>
-            <Image src={Artist} />
-            <Image src={Wrap} />
-            <Image src={Web} />
+            <Image src={Artist} alt='artist slider'/>
+            <Image src={Wrap} alt='wrap slider'/>
+            <Image src={Web} alt='web slider'/>
           </Slider>
         </div>
         <div className='text-base md:text-3xl relative text-center m-auto sm:top-[-100px] md:top-[-200px]'>

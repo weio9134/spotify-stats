@@ -12,7 +12,7 @@ const About = () => {
 
           <Fade direction='left'>
             <div className='md:grid md:grid-cols-2 p-10 gap-10 place-items-center'>
-              <p className='w-full p-10 sm:m-auto'>
+              <p className='w-full p-10 sm:m-auto md:text-2xl'>
                 Here, we're passionate about music and data.
                 Our mission is to empower music lovers like you with insights
                 into your listening habits. Whether you're a casual listener or a
@@ -38,7 +38,7 @@ const About = () => {
                 alt="vector stats"
                 className='sm:m-auto'
               />
-              <p className='w-full p-10 sm:m-auto'>
+              <p className='w-full p-10 sm:m-auto md:text-2xl'>
                 Explore your top tracks, artists, and genres over different time periods.
                 Dive into detailed statistics and compare your musical tastes with others.
                 Discover new music recommendations tailored just for you.
