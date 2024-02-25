@@ -11,12 +11,15 @@ import 'slick-carousel/slick/slick-theme.css';
 
 const Header = () => {
   const settings = {
-    speed: 650,
+    dots: true,
+    speed: 350,
     slideToShow: 1,
     slideToScroll: 1,
     initialSlide: 0,
     autoplay: true,
     fade: true,
+    pauseOnHover: false,
+
   }
 
   return (
@@ -28,7 +31,10 @@ const Header = () => {
           <Image src={Web} />
         </Slider>
         <div className='text-base md:text-3xl relative text-center m-auto top-[-100px] md:top-[-200px]'>
-          <p> Hello! Log in to see your Spotify stats! </p>
+          <p> 
+            Welcome to our Spotify Stats website! 
+          </p>
+          Log in to get insights into your music listening habits! 
         </div>
       </div>
     </section>
