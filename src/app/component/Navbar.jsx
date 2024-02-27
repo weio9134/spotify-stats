@@ -55,8 +55,8 @@ const Navbar = () => {
         </Link>
       </li>
       <li>
-        <button className={LinkStyle}>
-          Login
+        <button className={`${LinkStyle} rounded bg-[#E039A5]`}>
+          <p className='pl-2 pr-2'>Login</p>
         </button>
       </li>
     </>
