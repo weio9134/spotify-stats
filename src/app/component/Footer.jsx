@@ -11,7 +11,6 @@ const Footer = () => {
               Personal data will only be processed by us to the extent necessary 
               and for the purpose of providing a functional and user-friendly website, 
               including its contents, and the services offered.
-              Having any questions or feedback? Please reach out via email: weiouyang9134@gmail.com
             </div>
 
         </div>
